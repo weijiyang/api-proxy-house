@@ -1,0 +1,19 @@
+{
+  "name": "koa2-server-test",
+  "version": "1.0.0",
+  "description": "一个辅助前端开发的api代理服务（提供“静态假”或“动态真”的api接口数据）",
+  "main": "index.js",
+  "scripts": {
+    "start":"node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LiuJinYu",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mongodb": "^3.1.10",
+    "request": "^2.88.0"
+  }
+}
